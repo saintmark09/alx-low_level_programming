@@ -10,9 +10,9 @@ int main(void)
 	int a = '0';
 	int b = '0';
 
-	for (a = '0'; a <= '9'; ones++)
+	for (a = '0'; a <= '9'; a++)
 	{
-		for (b = '0'; b <= '9'; tens++)
+		for (b = '0'; b <= '9'; b++)
 		{
 			if (!(b == b) || (b > a))
 			{
