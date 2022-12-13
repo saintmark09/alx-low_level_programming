@@ -1,7 +1,8 @@
-#include <main.h>
+#include "main.h"
+#include <unistd.h>
 
 /**
- * main - Write a program that prints _putchar
+ * main - write a program that prints putchar
  * Return: Always 0 (Success)
  */
 
