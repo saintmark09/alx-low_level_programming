@@ -4,8 +4,8 @@
  * _strncpy - Function that copies a string
  * @dest: First entry
  * @src: Second entry
- * @n: Third entry
- * Return: Always 0
+ * @n: number of char to be copied
+ * Return: dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
@@ -23,5 +23,6 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[b] = '\0';
 		b++;
 	}
-	return (0);
+
+	return (dest);
 }
