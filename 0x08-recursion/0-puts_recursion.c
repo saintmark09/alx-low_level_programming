@@ -1,4 +1,4 @@
-#define "main.h"
+#include "main.h"
 
 /**
  * main - Function that print a string
